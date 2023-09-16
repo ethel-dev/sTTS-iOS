@@ -14,23 +14,6 @@
 		0A0DFEDB2AB5889C0086BED8 /* sTTS_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DFED92AB5889C0086BED8 /* sTTS_iOS.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		0A0DFEE12AB5889C0086BED8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0A0DFEC32AB5889B0086BED8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0A0DFECA2AB5889B0086BED8;
-			remoteInfo = "sTTS-iOS";
-		};
-		0A0DFEEB2AB5889C0086BED8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0A0DFEC32AB5889B0086BED8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0A0DFECA2AB5889B0086BED8;
-			remoteInfo = "sTTS-iOS";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		0A0DFECB2AB5889B0086BED8 /* sTTS-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sTTS-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A0DFECE2AB5889B0086BED8 /* sTTS_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sTTS_iOSApp.swift; sourceTree = "<group>"; };
@@ -38,26 +21,10 @@
 		0A0DFED22AB5889C0086BED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A0DFED52AB5889C0086BED8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0A0DFEDA2AB5889C0086BED8 /* sTTS_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sTTS_iOS.xcdatamodel; sourceTree = "<group>"; };
-		0A0DFEE02AB5889C0086BED8 /* sTTS-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sTTS-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A0DFEEA2AB5889C0086BED8 /* sTTS-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sTTS-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0A0DFEC82AB5889B0086BED8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0A0DFEDD2AB5889C0086BED8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0A0DFEE72AB5889C0086BED8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,8 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				0A0DFECB2AB5889B0086BED8 /* sTTS-iOS.app */,
-				0A0DFEE02AB5889C0086BED8 /* sTTS-iOSTests.xctest */,
-				0A0DFEEA2AB5889C0086BED8 /* sTTS-iOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,42 +90,6 @@
 			productReference = 0A0DFECB2AB5889B0086BED8 /* sTTS-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0A0DFEDF2AB5889C0086BED8 /* sTTS-iOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0A0DFEF72AB5889C0086BED8 /* Build configuration list for PBXNativeTarget "sTTS-iOSTests" */;
-			buildPhases = (
-				0A0DFEDC2AB5889C0086BED8 /* Sources */,
-				0A0DFEDD2AB5889C0086BED8 /* Frameworks */,
-				0A0DFEDE2AB5889C0086BED8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0A0DFEE22AB5889C0086BED8 /* PBXTargetDependency */,
-			);
-			name = "sTTS-iOSTests";
-			productName = "sTTS-iOSTests";
-			productReference = 0A0DFEE02AB5889C0086BED8 /* sTTS-iOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		0A0DFEE92AB5889C0086BED8 /* sTTS-iOSUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0A0DFEFA2AB5889C0086BED8 /* Build configuration list for PBXNativeTarget "sTTS-iOSUITests" */;
-			buildPhases = (
-				0A0DFEE62AB5889C0086BED8 /* Sources */,
-				0A0DFEE72AB5889C0086BED8 /* Frameworks */,
-				0A0DFEE82AB5889C0086BED8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0A0DFEEC2AB5889C0086BED8 /* PBXTargetDependency */,
-			);
-			name = "sTTS-iOSUITests";
-			productName = "sTTS-iOSUITests";
-			productReference = 0A0DFEEA2AB5889C0086BED8 /* sTTS-iOSUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -173,14 +102,6 @@
 				TargetAttributes = {
 					0A0DFECA2AB5889B0086BED8 = {
 						CreatedOnToolsVersion = 14.3.1;
-					};
-					0A0DFEDF2AB5889C0086BED8 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 0A0DFECA2AB5889B0086BED8;
-					};
-					0A0DFEE92AB5889C0086BED8 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 0A0DFECA2AB5889B0086BED8;
 					};
 				};
 			};
@@ -198,8 +119,6 @@
 			projectRoot = "";
 			targets = (
 				0A0DFECA2AB5889B0086BED8 /* sTTS-iOS */,
-				0A0DFEDF2AB5889C0086BED8 /* sTTS-iOSTests */,
-				0A0DFEE92AB5889C0086BED8 /* sTTS-iOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -211,20 +130,6 @@
 			files = (
 				0A0DFED62AB5889C0086BED8 /* Preview Assets.xcassets in Resources */,
 				0A0DFED32AB5889C0086BED8 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0A0DFEDE2AB5889C0086BED8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0A0DFEE82AB5889C0086BED8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,34 +146,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A0DFEDC2AB5889C0086BED8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0A0DFEE62AB5889C0086BED8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0A0DFEE22AB5889C0086BED8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0A0DFECA2AB5889B0086BED8 /* sTTS-iOS */;
-			targetProxy = 0A0DFEE12AB5889C0086BED8 /* PBXContainerItemProxy */;
-		};
-		0A0DFEEC2AB5889C0086BED8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0A0DFECA2AB5889B0086BED8 /* sTTS-iOS */;
-			targetProxy = 0A0DFEEB2AB5889C0086BED8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0A0DFEF22AB5889C0086BED8 /* Debug */ = {
@@ -393,6 +271,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"sTTS-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = DAW4KTT9M9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -421,6 +300,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"sTTS-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = DAW4KTT9M9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -441,78 +321,6 @@
 			};
 			name = Release;
 		};
-		0A0DFEF82AB5889C0086BED8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ethel1.sTTS-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sTTS-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sTTS-iOS";
-			};
-			name = Debug;
-		};
-		0A0DFEF92AB5889C0086BED8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ethel1.sTTS-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sTTS-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sTTS-iOS";
-			};
-			name = Release;
-		};
-		0A0DFEFB2AB5889C0086BED8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ethel1.sTTS-iOSUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "sTTS-iOS";
-			};
-			name = Debug;
-		};
-		0A0DFEFC2AB5889C0086BED8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ethel1.sTTS-iOSUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "sTTS-iOS";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -530,24 +338,6 @@
 			buildConfigurations = (
 				0A0DFEF52AB5889C0086BED8 /* Debug */,
 				0A0DFEF62AB5889C0086BED8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0A0DFEF72AB5889C0086BED8 /* Build configuration list for PBXNativeTarget "sTTS-iOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0A0DFEF82AB5889C0086BED8 /* Debug */,
-				0A0DFEF92AB5889C0086BED8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0A0DFEFA2AB5889C0086BED8 /* Build configuration list for PBXNativeTarget "sTTS-iOSUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0A0DFEFB2AB5889C0086BED8 /* Debug */,
-				0A0DFEFC2AB5889C0086BED8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
